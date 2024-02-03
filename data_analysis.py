@@ -16,5 +16,5 @@ os.chdir('..') #retorno al directorio principal
 V=data[:,1] #segunda columna de data
 I=data[:,2] #tercera columna de data
 
-plt.plot(V,I,'o') 
+plt.plot(V,I,'o') # plot datos
 plt.show()
